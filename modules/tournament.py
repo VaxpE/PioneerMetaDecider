@@ -1,7 +1,5 @@
-from Deck import Deck
+from modules.Deck import Deck
 
-import sys
-print(sys.path)
 
 def tournament(tournament, meta):
     tournament_result = []

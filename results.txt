@@ -1,0 +1,13 @@
+ur phoenix 25,4
+br sac 21,2
+br mid 16,3
+monow humans 15,2
+rg mid 12,1
+ub rogues 9,1
+bg stompy 9,2
+bant spirits 9,2
+uw lotus 6,1
+monor red 3,1
+rw heroic 3,1
+abzan rats 0,1
+uw spirits 0,1
