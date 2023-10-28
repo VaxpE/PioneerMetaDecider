@@ -19,3 +19,17 @@ class Deck:
             return False
         elif self.score_on_metagame < other.score_on_metagame:
             return True 
+
+class Player(Deck):
+    
+    def __init__(self, name, score_on_tournament=0, score_on_metagame=0) -> None:
+        super().__init__(name, score_on_tournament, score_on_metagame)
+    
+    def __str__(self) -> str:
+        return super().__str__()
+    
+    def __repr__(self) -> str:
+        return super().__repr__()
+    
+    def __lt__(self, other) -> bool:
+        return super().__lt__(other)
