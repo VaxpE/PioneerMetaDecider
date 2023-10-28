@@ -1,10 +1,12 @@
 class Deck:
-    score_on_metagame = 0
     quantity_on_tournament = 1
+    score_on_metagame = 0
+    avg_pnts_on_trn = score_on_metagame/quantity_on_tournament
     
-    def __init__(self,name, score_on_tournament) -> None:
+    def __init__(self,name, score_on_tournament = 0, score_on_metagame = 0) -> None:
         self.name = name
         self.score_on_tournament = score_on_tournament
+        self.score_on_metagame = score_on_metagame
 
     def __str__(self) -> str:
         return f'{self.name} {self.score_on_metagame},{self.quantity_on_tournament}'
